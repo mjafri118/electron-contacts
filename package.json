@@ -52,8 +52,7 @@
       "gatekeeperAssess": false
     },
     "dmg": {
-      "contents": [
-        {
+      "contents": [{
           "x": 130,
           "y": 220
         },
@@ -99,8 +98,7 @@
     "email": "electronreactboilerplate@gmail.com",
     "url": "https://electron-react-boilerplate.js.org"
   },
-  "contributors": [
-    {
+  "contributors": [{
       "name": "Amila Welihinda",
       "email": "amilajack@gmail.com",
       "url": "https://github.com/amilajack"
@@ -268,18 +266,16 @@
   },
   "browserslist": [],
   "prettier": {
-    "overrides": [
-      {
-        "files": [
-          ".prettierrc",
-          ".babelrc",
-          ".eslintrc"
-        ],
-        "options": {
-          "parser": "json"
-        }
+    "overrides": [{
+      "files": [
+        ".prettierrc",
+        ".babelrc",
+        ".eslintrc"
+      ],
+      "options": {
+        "parser": "json"
       }
-    ],
+    }],
     "singleQuote": true
   },
   "renovate": {
@@ -289,10 +285,5 @@
     "baseBranches": [
       "next"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
